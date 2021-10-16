@@ -23,12 +23,11 @@ $ yarn start
 # Configuração do .env
 
 Configurar as variáveis a seguir no seu arquivo .env (ver .env.example)
-PORT=3000
-SECRET_KEY='secretKey'
-
-BASE_URL_OMIE='https://app.omie.com.br/api/v1'
-OMIE_APP_KEY='OMIE_APP_KEY'
-OMIE_APP_SECRET='OMIE_APP_SECRET'
+- PORT=3000
+- SECRET_KEY='secretKey'
+- BASE_URL_OMIE='https://app.omie.com.br/api/v1'
+- OMIE_APP_KEY='OMIE_APP_KEY'
+- OMIE_APP_SECRET='OMIE_APP_SECRET'
 
 # Configuração do ormconfig.json
 
