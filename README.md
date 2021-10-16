@@ -33,7 +33,7 @@ OMIE_APP_SECRET='OMIE_APP_SECRET'
 # Configuração do ormconfig.json
 
 Configurar os dados de acesso a seu banco de dados.
-O projeto está pronto para acesso ao MS Sql Server. Para rodar com outros banco de dados favor verificar no site do [TypeORM] (https://typeorm.io/#/)
+O projeto está pronto para acesso ao MS Sql Server. Para rodar com outros banco de dados favor verificar no site do [TypeORM](https://typeorm.io/#/)
 
 ## Endpoints da integração
 
@@ -62,7 +62,7 @@ O projeto está pronto para acesso ao MS Sql Server. Para rodar com outros banco
 
 # POST /customer
 
-- Para criar um cliente. Favor verificar a documentação dos dados no [clicando aqui] (https://app.omie.com.br/api/v1/geral/clientes/#IncluirCliente)
+- Para criar um cliente. Favor verificar a documentação dos dados no [clicando aqui](https://app.omie.com.br/api/v1/geral/clientes/#IncluirCliente)
 
 # DELETE /customer
 
@@ -85,7 +85,7 @@ O projeto está pronto para acesso ao MS Sql Server. Para rodar com outros banco
 
 # POST /order
 
-- Para criar um pedido. Favor verificar a documentação dos dados no [clicando aqui] (https://app.omie.com.br/api/v1/produtos/pedido/#IncluirPedido)
+- Para criar um pedido. Favor verificar a documentação dos dados no [clicando aqui](https://app.omie.com.br/api/v1/produtos/pedido/#IncluirPedido)
 
 # PATCH /order
 
