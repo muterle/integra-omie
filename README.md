@@ -23,6 +23,7 @@ $ yarn start
 # Configuração do .env
 
 Configurar as variáveis a seguir no seu arquivo .env (ver .env.example)
+
 - PORT=3000
 - SECRET_KEY='secretKey'
 - BASE_URL_OMIE='https://app.omie.com.br/api/v1'
@@ -92,3 +93,7 @@ O projeto está pronto para acesso ao MS Sql Server. Para rodar com outros banco
   - codigo_pedido
   - codigo_pedido_integracao
   - etapa
+
+## Insomnia
+
+O arquivo Insomnia_Api Omie.json é a coleção para testes da API
