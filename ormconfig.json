@@ -1,0 +1,16 @@
+{
+  "type": "mssql",
+  "host": "34.69.19.227",
+  "username": "sqlserver",
+  "password": "1s9HPf4u89MhIspl",
+  "database": "integra_omie",
+  "synchronize": true,
+  "logging": true,
+  "migrationsRun": true,
+  "entities": ["src/database/entity/**/*.ts"],
+  "migrations": ["src/database/migration/**/*.ts"],
+  "options": { "trustServerCertificate": true },
+  "cli": {
+    "migrationsDir": "src/database/migration"
+  }
+}
