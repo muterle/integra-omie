@@ -37,6 +37,8 @@ O projeto está pronto para acesso ao MS Sql Server. Para rodar com outros banco
 
 ## Endpoints da integração
 
+- Esta aplicação está publicada no GCLOUD e o link para utilização é https://integra-omie-vjq5nnewba-uc.a.run.app
+
 ## Autenticação
 
 # POST /auth/token
