@@ -1,11 +1,4 @@
-import {
-  Column,
-  CreateDateColumn,
-  DeleteDateColumn,
-  Entity,
-  PrimaryGeneratedColumn,
-  UpdateDateColumn,
-} from 'typeorm'
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm'
 
 export enum UserStatusEnum {
   ACTIVE = 'active',
@@ -15,14 +8,14 @@ export enum UserStatusEnum {
 @Entity()
 export class User {
   @PrimaryGeneratedColumn()
-  id!: string
+  id: string
 
   @Column()
-  name!: string
+  name: string
 
   @Column()
-  login!: string
+  login: string
 
   @Column()
-  password!: string
+  password: string
 }
